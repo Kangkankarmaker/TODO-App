@@ -68,7 +68,7 @@ fun AddTaskScreen(
             value = title,
             onValueChange = { title = it },
             label = {
-                Text(text = "Title")
+                Text(text = "Enter a Task")
             },
             singleLine = true
         )
@@ -78,7 +78,7 @@ fun AddTaskScreen(
         // Button Save Task
         Button(
             onClick = {
-                if (title.isEmpty()) Toast.makeText(current, "Title is empty", Toast.LENGTH_SHORT).show()
+                if (title.isEmpty()) Toast.makeText(current, "Task cant be empty", Toast.LENGTH_SHORT).show()
                 else {
                     val task = Task(null, title, false)
                     addTaskViewModel.addTask(task)

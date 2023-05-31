@@ -2,4 +2,4 @@
 
 
 
-<video src='https://github.com/Kangkankarmaker/TODO-App/blob/master/screenrecorder.mp4' width="300" height="700"/>
+<video src='https://github.com/Kangkankarmaker/TODO-App/blob/master/screenrecorder.mp4' width=300/>
